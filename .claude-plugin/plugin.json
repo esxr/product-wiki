@@ -1,10 +1,12 @@
 {
   "name": "llm-wiki",
   "version": "0.1.0",
-  "description": "Maintains docs/wiki/ as a DAG of LLM-authored pages kept in sync with the KCart codebase",
+  "description": "Maintains a self-healing DAG of LLM-authored wiki pages automatically synced with your codebase",
   "author": {
     "name": "Pranav",
     "email": "pranav@kcart.dev"
   },
-  "keywords": ["wiki", "docs", "knowledge-graph", "eis", "kcart"]
+  "keywords": ["wiki", "docs", "knowledge-graph", "eis"],
+  "homepage": "https://esxr.github.io/product-wiki",
+  "repository": "https://github.com/esxr/product-wiki"
 }

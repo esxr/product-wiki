@@ -1,0 +1,18 @@
+{
+  "name": "product-wiki",
+  "owner": {
+    "name": "Pranav",
+    "email": "pranav@kcart.dev"
+  },
+  "metadata": {
+    "description": "LLM-powered wiki and documentation tools for Claude Code — maintains living knowledge graphs alongside your codebase."
+  },
+  "plugins": [
+    {
+      "name": "llm-wiki",
+      "description": "Maintains a self-healing DAG of LLM-authored wiki pages automatically synced with your codebase as you build.",
+      "source": "./",
+      "homepage": "https://esxr.github.io/product-wiki"
+    }
+  ]
+}

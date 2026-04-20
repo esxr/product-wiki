@@ -74,16 +74,26 @@ The drain is **idempotent** — safe to run at any queue depth. It reads raw sou
 
 ---
 
+## Install
+
+Add the `product-wiki` marketplace and install the plugin in three commands:
+
+```
+/plugin marketplace add esxr/product-wiki
+/plugin install llm-wiki@product-wiki
+/reload-plugins
+```
+
+---
+
 ## Getting started
 
 ```bash
-# 1. Install the plugin via your Claude Code plugin registry
-
-# 2. Bootstrap from your existing codebase
+# After installing, bootstrap from your existing codebase:
 /wiki-bootstrap
 
-# 3. Hooks maintain the wiki automatically from here
-#    Run /wiki-lint any time to health-check the graph
+# Hooks maintain the wiki automatically from here.
+# Run /wiki-lint any time to health-check the graph.
 ```
 
 ---
