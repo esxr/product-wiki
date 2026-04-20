@@ -1,6 +1,6 @@
 # llm-wiki
 
-A Claude Code plugin that maintains `docs/wiki/` as a self-healing DAG of LLM-authored pages, automatically kept in sync as your codebase evolves.
+A Claude Code plugin that builds persistent, compounding knowledge bases inside Obsidian using the Karpathy LLM Wiki pattern. Ingest sources, query synthesized knowledge, lint for gaps — all from your Claude Code session. It maintains `docs/wiki/` as a self-healing DAG of LLM-authored pages, automatically kept in sync as your codebase evolves.
 
 ---
 
